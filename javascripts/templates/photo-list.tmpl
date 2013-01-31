@@ -1,0 +1,7 @@
+{{#each data}}
+  <div class='photo animated fadeIn'>
+      <a href='{{link}}' target='_blank'><img class='main' src='{{images.low_resolution.url}}' width='250' height='250' /></a>
+      <img class='avatar' width='40' height='40' src='{{user.profile_picture}}' />
+      <span class='heart'><strong>{{likes.count}}</strong></span>
+  </div>
+{{/each}}
