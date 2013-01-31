@@ -6,7 +6,7 @@
 body {
   font-family: 'Lucida Grande', sans-serif;
   color: #333;
-  background: #EBEBEB url(../images/tile.png) repeat 0 0;
+  /*background: #EBEBEB url(../images/tile.png) repeat 0 0;*/
 }
 
 #search {
